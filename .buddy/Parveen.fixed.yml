@@ -1,0 +1,9 @@
+- pipeline: "Parveen"
+  on: "SCHEDULE"
+  refs:
+  - "refs/heads/main"
+  - ":default"
+  start_date: "2025-01-03T03:57:00Z"
+  delay: 5
+  fail_on_prepare_env_warning: true
+  resources: "X2LARGE"
